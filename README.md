@@ -16,11 +16,20 @@ The implementation follows these key steps:
 5.Comparison with Other Algorithms: The performance of K-Means is compared with other algorithms, such as K-Nearest Neighbors (KNN), Random Forest, and Isolation Forest, to assess their suitability for intrusion detection tasks.
 
 **Results and Discussion**
-![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/7bba323f-aab8-4c37-9c33-18e899249fcb)
-True Positive (TP) = 10971; meaning 10971 positive class data points were correctly classified by the model
-True Negative (TN) = 496; meaning 496 negative class data points were correctly classified by the model
-False Positive (FP) = 2451; meaning 2451 negative class data points were incorrectly classified as belonging to the positive class by the model
-False Negative (FN) = 11277; meaning 11277 positive class data points were incorrectly classified as belonging to the negative class by the model
+
+Without PCA:
+True Positive (TP) = 13340; meaning 13340 positive class data points were correctly classified by the model
+True Negative (TN) = 8037; meaning 8037 negative class data points were correctly classified by the model
+False Positive (FP) = 49; meaning 49 negative class data points were incorrectly classified as belonging to the positive class by the model
+False Negative (FN) = 5512; meaning 5512 positive class data points were incorrectly classified as belonging to the negative class by the model
+![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/5c019d0d-33f1-4fb3-ad64-a25c969dca11)
+
+With PCA: 
+True Positive (TP) = 13342; meaning 13342positive class data points were correctly classified by the model
+True Negative (TN) = 8037; meaning 8037negative class data points were correctly classified by the model
+False Positive (FP) = 47; meaning 47 negative class data points were incorrectly classified as belonging to the positive class by the model
+False Negative (FN) = 5512; meaning 5512 positive class data points were incorrectly classified as belonging to the negative class by the model
+![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/aa92e8a4-9a07-4bc2-b396-22000223d985)
 
 
 The project provides a detailed analysis of the K-Means algorithm's performance for intrusion detection, including its strengths, limitations, and potential improvements. The results highlight the challenges of using K-Means for this task, such as its sensitivity to initial centroid positions, assumption of spherical clusters, and difficulty in handling unbalanced and high-dimensional data.
