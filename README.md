@@ -22,7 +22,8 @@ True Positive (TP) = 13340; meaning 13340 positive class data points were correc
 True Negative (TN) = 8037; meaning 8037 negative class data points were correctly classified by the model
 False Positive (FP) = 49; meaning 49 negative class data points were incorrectly classified as belonging to the positive class by the model
 False Negative (FN) = 5512; meaning 5512 positive class data points were incorrectly classified as belonging to the negative class by the model
-![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/5c019d0d-33f1-4fb3-ad64-a25c969dca11)
+![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/3d41ebf1-98ed-43db-93ea-3ade58c0ae46)
+
 
 **With PCA:**
 True Positive (TP) = 13342; meaning 13342positive class data points were correctly classified by the model
