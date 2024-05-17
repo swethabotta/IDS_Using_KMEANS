@@ -17,19 +17,20 @@ The implementation follows these key steps:
 
 **Results and Discussion**
 
-Without PCA:
+**Without PCA:**
 True Positive (TP) = 13340; meaning 13340 positive class data points were correctly classified by the model
 True Negative (TN) = 8037; meaning 8037 negative class data points were correctly classified by the model
 False Positive (FP) = 49; meaning 49 negative class data points were incorrectly classified as belonging to the positive class by the model
 False Negative (FN) = 5512; meaning 5512 positive class data points were incorrectly classified as belonging to the negative class by the model
 ![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/5c019d0d-33f1-4fb3-ad64-a25c969dca11)
 
-With PCA: 
+**With PCA: **
 True Positive (TP) = 13342; meaning 13342positive class data points were correctly classified by the model
 True Negative (TN) = 8037; meaning 8037negative class data points were correctly classified by the model
 False Positive (FP) = 47; meaning 47 negative class data points were incorrectly classified as belonging to the positive class by the model
 False Negative (FN) = 5512; meaning 5512 positive class data points were incorrectly classified as belonging to the negative class by the model
-![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/aa92e8a4-9a07-4bc2-b396-22000223d985)
+![image](https://github.com/swethabotta/IDS_Using_KMEANS/assets/169571533/c8205840-b22a-4f54-b4a0-b35c8d3de1eb)
+
 
 
 The project provides a detailed analysis of the K-Means algorithm's performance for intrusion detection, including its strengths, limitations, and potential improvements. The results highlight the challenges of using K-Means for this task, such as its sensitivity to initial centroid positions, assumption of spherical clusters, and difficulty in handling unbalanced and high-dimensional data.
